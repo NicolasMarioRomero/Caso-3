@@ -2,9 +2,9 @@
 public class ClienteEmisor extends Thread{
     private final int id;
     private final int numMensajes;
-    private final BuzonEntrada buzon;
+    private final Buzon buzon;
 
-    public ClienteEmisor(int id, int numMensajes, BuzonEntrada buzon){
+    public ClienteEmisor(int id, int numMensajes, Buzon buzon){
         this.id = id;
         this.numMensajes = numMensajes;
         this.buzon = buzon;
